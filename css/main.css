@@ -719,7 +719,7 @@ color: #fff;
 
 @media (max-width: 950px) {
     .heroarea_main_div {
-        height: 55vh !important;
+        height: 105vh !important;
         width: 100%;
     }
     .grid_footer {
@@ -768,7 +768,7 @@ color: #fff;
 
 @media (max-width: 800px) {
     .heroarea_main_div {
-        height: 55vh !important;
+        height: 90vh !important;
         width: 100%;
     }
     .heroarea_headline {
@@ -875,7 +875,10 @@ color: #fff;
     }
 
     @media (max-width: 550px) {
-       
+        .heroarea_main_div {
+            height: 65vh !important;
+            width: 100%;
+        }
         .footer_ul li a {
                 font-size: 13px;
                 line-height: 22px;
@@ -909,10 +912,12 @@ color: #fff;
     }
 
     @media (max-width: 450px) {
-        .heroarea_main_div {
-            height: 75vh;
-            width: 100%;
+
+        .btn_hero_postion {
+            padding: 0.2rem 0.6rem;
+            font-size: 12px;
         }
+      
         .heroarea_headline {
             font-size: 45px;
             line-height: 45px;
@@ -965,16 +970,17 @@ color: #fff;
     }
 
     @media (max-width: 300px) {
+        .heroarea_main_div {
+            height: 55vh !important;
+            width: 100%;
+        }
         .heroarea_headline {
-            font-size: 35px;
+            font-size: 30px;
             line-height: 35px;
         }
     
 
-        .heroarea_headline {
-            font-size: 45px;
-            line-height: 45px;
-        }
+
         .heroarea_main_div {
             height: 55vh;
             width: 100%;
