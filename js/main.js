@@ -12,3 +12,11 @@ closeMenu.addEventListener('click' , () => {
     mobileDivMenu.classList.remove('active');
 });
 
+
+// let Scrollbar = window.Scrollbar;
+
+// const options = {
+//     'damping': .06,
+// }
+
+// Scrollbar.init( document.querySelector('body') , options )

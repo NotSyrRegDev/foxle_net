@@ -63,6 +63,8 @@ CONTACT US
     box-sizing: border-box;
 
 }
+
+
 html {
     background: #0E121B;
     width: 100%;
@@ -77,6 +79,10 @@ html {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 /* ----------------END GLOBAL STYLES----------------------*/
@@ -260,10 +266,63 @@ line-height: 22px;
 /* ----------------END MOBILE NAV STYLES----------------------*/
 
 
+/* ----------------HERO AREA STYLES----------------------*/
+
+.heroarea_main_div {
+    height: 120vh;
+    width: 100%;
+}
+
+.hero_1 {
+    background: url('../images/heroarea/hero-transparent-2.png') center / cover;
+}
+
+.hero_2 {
+    background: url('../images/heroarea/hero-transparent-3.png') center / cover;
+}
+
+.heroarea_headline {
+    color: #E8E9EE;
+    font-family: 'Bebas Neue' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 130px;
+}
+
+.heroarea_main_div {
+    position: relative;
+}
+
+.heroarea_main_div .headline_1 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.heroarea_main_div .headline_2 {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+
+.btn_hero_postion {
+    position: absolute;
+    bottom: 10%;
+    right: 35%;
+}
+
+.heroarea_section {
+    overflow-x: hidden !important;
+    margin-top: 3rem;
+}
+
+/* ----------------END HERO AREA STYLES----------------------*/
+
 /* ---------------- WE DO STYLES----------------------*/
 
 .what_we_do_section {
-  
+  overflow-x:hidden !important ;
     
 }
 
@@ -428,6 +487,10 @@ color: #FFFFFF;
 
 /* ----------------BLOG STYLES----------------------*/
 
+.blogging_section {
+    overflow-x: hidden !important;
+}
+
 .grid_blog {
     display: grid;
     grid-template-columns: repeat( 3 , 1fr);
@@ -522,6 +585,11 @@ font-weight: lighter;
 
 .footer_foxle {
     background: #191F2E;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+.footer_foxle .container_foxle {
+    overflow-y: hidden;
 }
 
 .grid_footer {
@@ -631,6 +699,22 @@ color: #fff;
     .post_img {
         max-height: 14rem;
        }
+
+       .heroarea_headline {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+    
+    .heroarea_main_div .headline_1 {
+        top: 10%;
+        left: 10%;
+    }
+    
+    .heroarea_main_div .headline_2 {
+        top: 40%;
+        right: 15%;
+    }
 }
 
 @media (max-width: 950px) {
@@ -679,6 +763,23 @@ color: #fff;
 }
 
 @media (max-width: 800px) {
+
+    .heroarea_headline {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    
+    .heroarea_main_div .headline_1 {
+        top: 15%;
+        left: 10%;
+    }
+    
+    .heroarea_main_div .headline_2 {
+        top: 50%;
+        right: 22%;
+    }
+
     .read_more_btn {
         padding: 0.8rem 0.2rem;
         font-size: 14px;
@@ -724,6 +825,10 @@ color: #fff;
     }
 }
     @media (max-width: 600px) {
+        .heroarea_main_div {
+            height: 85vh;
+            width: 100%;
+        }
         .footer_ul li  {
             margin: 0 1rem;
         }
@@ -778,9 +883,43 @@ color: #fff;
         .grid_partners {
             grid-template-columns: repeat(1 , 1fr);
         }
+        .heroarea_headline {
+            font-size: 55px;
+            line-height: 55px;
+        }
+    
+        
+        .heroarea_main_div .headline_1 {
+            top: 15%;
+            left: 5%;
+        }
+        
+        .heroarea_main_div .headline_2 {
+            top: 50%;
+            right: 18%;
+        }
     }
 
     @media (max-width: 450px) {
+        .heroarea_main_div {
+            height: 75vh;
+            width: 100%;
+        }
+        .heroarea_headline {
+            font-size: 45px;
+            line-height: 45px;
+        }
+    
+        
+        .heroarea_main_div .headline_1 {
+            top: 15%;
+            left: 5%;
+        }
+        
+        .heroarea_main_div .headline_2 {
+            top: 50%;
+            right: 18%;
+        }
         .footer_ul li {
             margin:  0 0.5rem;
         }
@@ -818,6 +957,20 @@ color: #fff;
     }
 
     @media (max-width: 300px) {
+        .heroarea_headline {
+            font-size: 35px;
+            line-height: 35px;
+        }
+    
+
+        .heroarea_headline {
+            font-size: 45px;
+            line-height: 45px;
+        }
+        .heroarea_main_div {
+            height: 55vh;
+            width: 100%;
+        }
         .headline_blog {
             font-size: 13px;
         }

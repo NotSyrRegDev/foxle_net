@@ -10,12 +10,16 @@
 
     <link rel="stylesheet" href="./css/main.css">
 
+    <link href="./css/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
 
 
 </head>
@@ -35,15 +39,15 @@
                 <ul class="ul_flex">
 
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html#home">Home</a>
+                </li>
+
+                <li >
+                    <a href="index.html#services">Services</a>
                 </li>
 
                 <li>
-                    <a href="#">Services</a>
-                </li>
-
-                <li>
-                    <a href="#">Clients</a>
+                    <a href="index.html#clients">Clients</a>
                 </li>
 
                 <li>
@@ -55,7 +59,10 @@
             </div>
 
             <div class="action_div">
-                <button class="btn main_btn"> CONTACT US </button>
+                <a href="index.html#footer">
+                    <button class="btn main_btn"> CONTACT US </button>
+                </a>
+               
             </div>
 
             <div class="mobile_section">
@@ -65,6 +72,54 @@
     </navbar>
 
      <!-------------------END NAVBAR SECTION ----------------------->
+
+     
+     <!------------------- HEROAREA SECTION ----------------------->
+
+     <section class=" heroarea_section" id="home">
+
+        <div class="hero_swipper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="heroarea_main_div hero_1"  >
+
+                        <h1 class="heroarea_headline headline_1"> SECURITY </h1>
+                        <h1 class="heroarea_headline headline_2"> 2023 </h1>
+            
+                        <button class="btn main_btn w-30 btn_hero_postion"> OUR VISION </button>
+            
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="heroarea_main_div hero_2"  >
+
+                        <h1 class="heroarea_headline headline_1"> PENETRATION </h1>
+                        <h1 class="heroarea_headline headline_2"> 2023 </h1>
+            
+                        <button class="btn main_btn w-30 btn_hero_postion"> OUR VISION </button>
+            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+     </section>
+
+
+     
+     <!-------------------END HEROAREA SECTION ----------------------->
+
 
      <!------------------- MOBILE NAV SECTION ----------------------->
 
@@ -103,13 +158,16 @@
      <!-------------------END MOBILE NAV SECTION ----------------------->
 
         <!-------------------WHAT WE DO SECTION ----------------------->
-    <section class="section what_we_do_section container_foxle">
+    <section class="section what_we_do_section container_foxle" id="services" >
 
-        <h1 class="headline_main"> WHAT WE DO  </h1>
+        <div data-aos="fade-down"  >
+            <h1 class="headline_main"  > WHAT WE DO  </h1>
+        </div>
+       
 
         <div class="grid_we_do griding_section mt-3">
 
-            <div class="single_card_we_do">
+            <div class="single_card_we_do" data-aos="fade-right"   data-aos-duration="1000" >
 
                 <img src="./images/what_we_do/1.png" alt="" class="we_do_img">
                 <h1 class="headline_we_do_card mt-3">
@@ -124,7 +182,7 @@
 
             </div>
 
-            <div class="single_card_we_do">
+            <div class="single_card_we_do" data-aos="fade-left"   data-aos-duration="1300" >
 
                 <img src="./images/what_we_do/2.png" alt="" class="we_do_img">
                 <h1 class="headline_we_do_card mt-3">
@@ -143,7 +201,7 @@
 
             </div>
 
-            <div class="single_card_we_do">
+            <div class="single_card_we_do" data-aos="fade-right"   data-aos-duration="1600" >
 
                 <img src="./images/what_we_do/3.png" alt="" class="we_do_img">
                 <h1 class="headline_we_do_card mt-3">
@@ -162,7 +220,7 @@
 
             </div>
 
-            <div class="single_card_we_do">
+            <div class="single_card_we_do" data-aos="fade-left"   data-aos-duration="2000" >
 
                 <img src="./images/what_we_do/4.png" alt="" class="we_do_img">
                 <h1 class="headline_we_do_card mt-3">
@@ -190,9 +248,9 @@
     
           <!-------------------OUR CLIENTS SECTION ----------------------->
 
-          <section class="section container_foxle our_clients_section">
+          <section class="section container_foxle our_clients_section" id="clients" >
 
-            <h1 class="headline_main"> OUR CLIENTS  </h1>
+            <h1 class="headline_main" data-aos="fade-down" > OUR CLIENTS  </h1>
 
             <div class="swiper_clients mt-3">
 
@@ -200,7 +258,7 @@
 
                     <div class="swiper-slide">
 
-                        <div class="card_client_div">
+                        <div class="card_client_div" data-aos="zoom-in"   data-aos-duration="1000" >
                             <img src="./images/clients/1.png" alt="" class="card_client">
                             <div class="card_body_client mt-2">
                                 <h1 class="client_name"> Methew smith </h1>
@@ -212,7 +270,7 @@
 
                     <div class="swiper-slide">
 
-                        <div class="card_client_div">
+                        <div class="card_client_div" data-aos="zoom-in"   data-aos-duration="1500" >
                             <img src="./images/clients/2.png" alt="" class="card_client">
                             <div class="card_body_client mt-2">
                                 <h1 class="client_name"> Javin Aleen </h1>
@@ -224,7 +282,7 @@
 
                     <div class="swiper-slide">
 
-                        <div class="card_client_div">
+                        <div class="card_client_div" data-aos="zoom-in"   data-aos-duration="2000" >
                             <img src="./images/clients/3.png" alt="" class="card_client">
                             <div class="card_body_client mt-2">
                                 <h1 class="client_name"> Alex John  </h1>
@@ -252,13 +310,13 @@
           <section class="container_foxle section partners_section">
 
             <div class="d-flex-c f-sp toping_area">
-                <h1 class="headline_main"> OUR PARTNERS  </h1> 
-                <button class="btn main_btn">CONTACT US</button>
+                <h1 class="headline_main" data-aos="fade-down" > OUR PARTNERS  </h1> 
+                <button class="btn main_btn"data-aos="fade-up" >CONTACT US</button>
             </div>
 
             <div class="grid_partners mt-3">
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="1000" >
                     <img src="./images/partners/1.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -270,7 +328,7 @@
                     </div>
                 </div>
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="1300" >
                     <img src="./images/partners/2.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -284,7 +342,7 @@
                     </div>
                 </div>
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="1600">
                     <img src="./images/partners/3.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -298,7 +356,7 @@
                     </div>
                 </div>
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="1900" >
                     <img src="./images/partners/4.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -312,7 +370,7 @@
                     </div>
                 </div>
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="2200">
                     <img src="./images/partners/5.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -326,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="single_partner_div">
+                <div class="single_partner_div" data-aos="zoom-out"   data-aos-duration="2500">
                     <img src="./images/partners/6.png" alt="" class="partner_img">
                     <div class="body_card_partner">
 
@@ -353,11 +411,11 @@
 
         <section class="section container_foxle blogging_section">
 
-            <h1 class="headline_main"> BLOG  </h1> 
+            <h1 class="headline_main"  data-aos="fade-down" > BLOG  </h1> 
 
             <div class="grid_blog mt-3">
 
-            <div class="single_post_div">
+            <div class="single_post_div" data-aos="fade-right"   data-aos-duration="1000" >
                 <img src="./images/blog/1.png" alt="" class="post_img">
 
                 <div class="card_body_post">
@@ -388,7 +446,7 @@
 
             </div>
 
-            <div class="single_post_div">
+            <div class="single_post_div" data-aos="fade-left"   data-aos-duration="2000"  >
                 <img src="./images/blog/2.png" alt="" class="post_img">
 
                 <div class="card_body_post">
@@ -429,16 +487,16 @@
 
         <!------------------- FOOTER SECTION ----------------------->
 
-        <footer class="section footer_foxle">
+        <footer class="section footer_foxle" id="footer">
 
             <div class="container_foxle">
 
                 <div class="grid_footer">
 
-                        <div class="left_footer_div">
-                            <img src="./images/assets/logo-footer.png" alt="" class="footer_logo">
+                        <div class="left_footer_div" >
+                            <img src="./images/assets/logo-footer.png" data-aos="fade-up"   data-aos-duration="1000"  alt="" class="footer_logo">
                             
-                <ul class="footer_ul mt-3">
+                <ul class="footer_ul mt-3" data-aos="fade-right"   data-aos-duration="1500" >
 
                     <li>
                         <a href="#">Home</a>
@@ -458,14 +516,14 @@
     
                     </ul>
 
-                    <p class="footer_para mt-3">© 2023 CSO. All rights reserved.</p>
+                    <p class="footer_para mt-3"   >© 2023 CSO. All rights reserved.</p>
                         </div>
 
                 <div class="right_footer_div">
 
-                        <h4 class="headline_info"> NEWSLETTER </h4>
+                        <h4 class="headline_info" data-aos="fade-up"   data-aos-duration="1500" > NEWSLETTER </h4>
 
-                        <div class="news_letter_div  mt-3">
+                        <div class="news_letter_div  mt-3" data-aos="fade-right"   data-aos-duration="2000" >
                             <div class="d-flex-c">
                                 <input placeholder="cyber@security.dev" type="email" class="input_form"  >
 
@@ -473,7 +531,7 @@
                             </div>
 
                         </div>
-                            <div class="list_right_footer mt-3"> 
+                            <div class="list_right_footer mt-3"  > 
                                 <ul class="footer_ul">
 
                                     <li>
@@ -505,10 +563,32 @@
 
 
         <!-------------------  SCRIPTS SECTION ----------------------->
+
+        <script src="./js/aos.js"></script>
+
+        <script>
+            AOS.init();
+            </script>
+<!-- 
+<script src="./js/smooth-scrollbar.js"></script> -->
         <script src="./js/jquery-3.6.0.min.js"></script>
+
         <script src="./js/swiper-bundle.min.js"></script>
-           <script src="./js/main.js"></script>
+
+     
+
            <script src="./js/slides.js"></script>
+
+           <script src="./js/main.js"></script>
+
+
+           <script>
+
+            function naviageServices() {
+                window.scrollTo(0, document.getElementById('services').offsetTop)
+            }
+
+           </script>
 
         <!------------------- END  SCRIPTS SECTION ----------------------->
 

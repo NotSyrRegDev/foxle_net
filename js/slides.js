@@ -1,5 +1,18 @@
 
 
+const heroSwipper = new Swiper('.hero_swipper', {
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+speed: 400,
+spaceBetween: 100,
+slidesPerView: 1,
+allowSlideNext: true,
+loop: true,
+});
+
+
 const swiper2 = new Swiper('.swiper_clients', {
     navigation: {
         nextEl: '.swiper-button-next',
@@ -33,6 +46,10 @@ const swiper2 = new Swiper('.swiper_clients', {
 
 
 
+
+setInterval(() => {
+  heroSwipper.slideNext();
+},  3300)
 
 setInterval(() => {
     swiper2.slideNext();
