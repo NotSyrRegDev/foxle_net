@@ -719,7 +719,7 @@ color: #fff;
 
 @media (max-width: 950px) {
     .heroarea_main_div {
-        height: 65vh !important;
+        height: 55vh !important;
         width: 100%;
     }
     .grid_footer {
@@ -768,7 +768,7 @@ color: #fff;
 
 @media (max-width: 800px) {
     .heroarea_main_div {
-        height: 65vh !important;
+        height: 55vh !important;
         width: 100%;
     }
     .heroarea_headline {
