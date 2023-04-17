@@ -718,6 +718,10 @@ color: #fff;
 }
 
 @media (max-width: 950px) {
+    .heroarea_main_div {
+        height: 65vh !important;
+        width: 100%;
+    }
     .grid_footer {
         display: flex;
         align-items: center;
@@ -763,7 +767,10 @@ color: #fff;
 }
 
 @media (max-width: 800px) {
-
+    .heroarea_main_div {
+        height: 65vh !important;
+        width: 100%;
+    }
     .heroarea_headline {
         font-size: 70px;
         line-height: 70px;
@@ -824,11 +831,12 @@ color: #fff;
     padding: 0.5rem 0.8rem;
     }
 }
+
+    @media (max-width: 700px) {
+      
+    }
     @media (max-width: 600px) {
-        .heroarea_main_div {
-            height: 85vh;
-            width: 100%;
-        }
+     
         .footer_ul li  {
             margin: 0 1rem;
         }
